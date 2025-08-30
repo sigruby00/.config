@@ -120,6 +120,10 @@ ff() {
 alias c="clear"
 alias t="tmux"
 alias ll="ls -al"
+alias tt="~/script/ide.sh"
+
+# Set vi mode in terminal
+bindkey -v
 
 # Autocompletion settings
 autoload -Uz compinit && compinit
